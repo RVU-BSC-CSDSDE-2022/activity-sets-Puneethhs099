@@ -1,7 +1,6 @@
 # Set 1
 
 1. Write a C program to print your name.
-
 ---
 
 2. Write a C program to add two numbers.
