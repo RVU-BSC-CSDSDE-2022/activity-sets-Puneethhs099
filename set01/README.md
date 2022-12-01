@@ -1,7 +1,6 @@
 # Set 1
 
 1. Write a C program to print your name.
-
 ---
 
 2. Write a C program to add two numbers.
@@ -144,7 +143,7 @@ The largest of 1,2 and 3 is 3.
 ```c
 int input_array_size();
 void input_array(int n, int a[n]);
-int sum_n_array(int n, int a[n]);
+int sum_n_array(int n, int a[n]the );
 void output(int n, int a[n],int sum);
 ```
 
