@@ -1,21 +1,37 @@
 #include <stdio.h>
- 
+
+int input();
+int sum_n_nos(int n);
+void output(int n, int sum);
+
+int input()
+{
+  int n;
+  printf("Enter the number\n");
+  scanf("%d", &n);
+  return n;
+}
+
+int sum_n_nos(int n)
+{
+    int sum=0;
+    for(int i=1; i<=n; i++)
+      {
+        sum=sum+i;
+      }
+
+  return sum;
+}
+
+void output(int n , int sum)
+{
+  printf("The sum of %d is %d\n",n, sum);
+}
+
 int main()
 {
-  int n, sum = 0, c, value;
- 
-  printf("How many numbers you want to add?\n");
-  scanf("%d", &n);
- 
-  printf("Enter %d integers\n", n);
- 
-  for (c = 1; c <= n; c++)
-  {
-    scanf("%d", &value);
-    sum = sum + value;
-  }
- 
-  printf("Sum of the integers = %d\n", sum);
- 
-  return 0;
+  int n, sum=0;
+  n=input();
+  sum=sum_n_nos(n);
+  output(n, sum);
 }
