@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int input();
 void compare(int a, int b, int c, int *largest);
 void output(int a, int b, int c, int largest);
@@ -25,7 +24,7 @@ void compare(int a, int b, int c, int *largest){
 }
 
 void output(int a, int b, int c, int largest){
-  printf("larger of %d,%d and %d is %d\n", a, b, c, largest);
+  printf("%d",largest);
 }
 
 int main(){
